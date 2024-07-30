@@ -1,0 +1,46 @@
+.sub-nav {
+  color: var(--navbar-color);
+  background: rgba(250, 250, 250, 0.7);
+  border-bottom: 1px solid #333;
+  padding: 0.7rem;
+  display: none;
+  opacity: 0;
+  transition: opacity 2s ease-in-out, max-height 0.3s ease-in-out;
+  max-height: 0;
+  overflow: hidden;
+  position: fixed;
+  top: 3.8rem;
+  width: 100%;
+  z-index: 9;
+}
+
+.visible {
+  display: block;
+  opacity: 1;
+  max-height: 500px;
+}
+
+.dropdown {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin: 0 5rem;
+}
+
+.dropdown li {
+  text-decoration: none;
+  padding: 0 10px;
+  border-right: 1px solid var(--navbar-color);
+  cursor: pointer;
+  transition: 0.1s;
+  font-size: 0.85rem;
+}
+
+.dropdown li:last-child {
+  border: none;
+}
+
+.dropdown li:hover {
+  color: black;
+  font-size: 0.9rem;
+}

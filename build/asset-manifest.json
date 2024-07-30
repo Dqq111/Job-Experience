@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.8e77ddd1.css",
+    "main.js": "/static/js/main.6fcbe208.js",
+    "static/media/personal.png": "/static/media/personal.feabd583c7a28fc632ca.png",
+    "static/media/farm.jpg": "/static/media/farm.3d07c53576639ca27070.jpg",
+    "static/media/night-background.jpg": "/static/media/night-background.42adfca2b9c24a09ac03.jpg",
+    "static/media/airplane.webp": "/static/media/airplane.bce2af888d2b7f2d7c1f.webp",
+    "static/media/membrane.jpeg": "/static/media/membrane.a5565d753051633273d5.jpeg",
+    "static/media/web-development.jpeg": "/static/media/web-development.b5dd549f16e886d286b8.jpeg",
+    "static/media/investing.jpeg": "/static/media/investing.46991fa6cb2f10786ba6.jpeg",
+    "static/media/gmail.png": "/static/media/gmail.a2f2146f929409405da0.png",
+    "static/media/down-chevron.png": "/static/media/down-chevron.d1b50c1191b185006267.png",
+    "index.html": "/index.html",
+    "main.8e77ddd1.css.map": "/static/css/main.8e77ddd1.css.map",
+    "main.6fcbe208.js.map": "/static/js/main.6fcbe208.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8e77ddd1.css",
+    "static/js/main.6fcbe208.js"
+  ]
+}

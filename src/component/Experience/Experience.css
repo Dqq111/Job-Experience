@@ -1,0 +1,64 @@
+.experiences {
+  margin: 80px auto;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.exDivider {
+  flex-basis: 31%;
+  position: relative;
+}
+
+.exDivider img {
+  object-fit: cover;
+  height: 12rem;
+  /* width: 15rem; */
+  width: 100%;
+  border-radius: 10px;
+  display: block;
+  transition: 0.5s all ease-in-out;
+}
+
+.exDivider:hover img {
+  transform: scale(1.1);
+}
+
+.caption {
+  border-radius: 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(51, 51, 51, 0.7);
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: center;
+  color: var(--text-white);
+  cursor: pointer;
+  opacity: 0;
+  padding-top: 70%;
+  transition: 0.5s all ease-in-out;
+}
+
+.exDivider:hover .caption {
+  opacity: 1;
+  padding-top: 0;
+  transform: scale(1.1);
+  /* transition: transform var(--p-transition-duration, 0.4s)
+    cubic-bezier(0.25, 0.1, 0.25, 1); */
+}
+
+@media screen and (max-width: 850px) {
+  .experiences {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .exDivider img {
+    width: 500px;
+    height: 400px;
+  }
+}
